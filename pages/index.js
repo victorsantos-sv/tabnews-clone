@@ -2,7 +2,7 @@ function Home() {
   return (
     <div className="page">
       <div className="card">
-        <h1>Em construção</h1>
+        <h1>🚧 Em construção 🚧</h1>
         <span className="brand">Voynara</span>
       </div>
 
