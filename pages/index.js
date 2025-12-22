@@ -2,8 +2,8 @@ function Home() {
   return (
     <div className="page">
       <div className="card">
-        <h1>🚧 Em construção 🚧</h1>
         <span className="brand">Voynara</span>
+        <h1> Em construção </h1>
       </div>
 
       <style jsx>{`
@@ -12,11 +12,8 @@ function Home() {
           padding: 0;
           width: 100%;
           height: 100%;
-          background: linear-gradient(
-            to bottom,
-            rgba(17, 131, 212, 0.85),
-            rgba(242, 153, 90, 0.85)
-          );
+          overflow: hidden;
+          background: linear-gradient(to bottom, #a8b2a3, #e7e3da);
           font-family:
             system-ui,
             -apple-system,
@@ -37,11 +34,11 @@ function Home() {
 
         .card {
           padding: 2.25rem 3rem;
-          background: rgba(255, 255, 255, 0.14);
+          background: rgba(255, 255, 255, 0.55);
           backdrop-filter: blur(12px);
           border-radius: 1.5rem;
-          border: 1px solid rgba(255, 255, 255, 0.25);
-          box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+          border: 1px solid rgba(255, 255, 255, 0.35);
+          box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
           text-align: center;
 
           /* Fade-in animation */
@@ -52,7 +49,7 @@ function Home() {
 
         h1 {
           margin: 0;
-          color: #ffffff;
+          color: #2b2e2b;
           font-size: 2rem;
           font-weight: 600;
           letter-spacing: 0.04em;
@@ -61,7 +58,7 @@ function Home() {
         .brand {
           display: block;
           margin-top: 0.75rem;
-          color: rgba(255, 255, 255, 0.65);
+          color: #6b7168;
           font-size: 0.75rem;
           letter-spacing: 0.3em;
           text-transform: uppercase;
